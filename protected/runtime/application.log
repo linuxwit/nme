@@ -1,0 +1,8 @@
+2013/10/24 10:01:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/list".' in /home/witwave/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/witwave/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#1 /home/witwave/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/witwave/www/nme/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/nme/index.php/api/list
+---
